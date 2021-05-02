@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* .container,
+h1,
+.add__user,
+table {
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.add__user {
+    float: left;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid black;
+}
+ */
+
+
+ /* Add Item */
+
+.add_items {
+    margin: 2% 25%;
+    border-radius: 10px;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_items h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 26px;
+}
+
+.add_items h3::after {
+  position: absolute;
+  left: 43%;
+  display: flex;
+  content: "";
+  width: 200px;
+  background-color: black;
+  border: black solid 2px;
+  border-radius: 50px
+}
+
+form {
+   margin: 5% 20%;
+}
+
+.add_items form label {
+  font-weight: bold;
+}
+
+.add_items form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_items form input[type='text'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.add_items form input[type='number'] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+.add_items form input[type='file'] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.add_items form button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 5px #aaa1;
+}
+
+
+.add_items form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+    resize: none;
+    height: 150px;
+}
+
+/* user-profile */
+
+.container {
+  position: absolute;
+  display: inline-block;
+    margin: 5% 20%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 900px;
+    border-radius: 10px;
+  border-style: none;
+  }
+
+.row {
+  min-width: 1100px;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--clr-primary);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.profile-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: var(--clr-primary);
+    border-radius: 5px;
+    color: #fff;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr th{
+  font-size: 21px
+}
+table tr td{
+  text-align: center;
+  font-size: 17px;
+}
+
+/* 
+table {
+    border-collapse: collapse;
+}
+
+thead tr th,
+tbody tr td {
+    border: 1px solid black;
+}
+
+.profile-status .table {
+    min-width: 900px;
+}
+
+.table tbody tr td {
+    padding: 0;
+}
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    margin: 10px 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table tr th{
+    font-size: 21px
+  }
+  table tr td{
+    text-align: center;
+    font-size: 17px;
+  } */
+  
+/* side nav dashboard */
+
+/* .dashboard {
+    position: absolute;
+    width: 20vw;
+    background-color: var(--clr-primary);
+    color: #fff;
+} */
+
+  .dashboard {
+    position: absolute;
+    display: inline-block;
+    background-color: #354379;
+     overflow: hidden;
+     margin-top: 20px;
+     max-width: 200px;
+     height: 550px;
+     margin-left: 17px;
+     border-radius: 15px;
+  }
+  
+  .dashboard ul {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .dashboard ul li {
+    display: flex ;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .dashboard ul li h2 {
+    color: #f2f2f2;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+  .dashboard a {
+    flex-direction: row;
+    color: #f2f2f2;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: black;
+    border-radius: 5px;
+    
+  }
+  
+  .dashboard a:hover {
+    background-color: rgb(238, 238, 238);
+    color: black;
+  }
+  
+  .dashboard a.active {
+    color: white;
+  }
+
+.delete-btn {
+  border: none;
+  background-color: #fff;
+}
+.delete-btn:hover {
+  border: none;
+  color: #bbbbbb;
+}
+
+.edit {
+  color: #000;
+}
+.edit:hover {
+  border: none;
+  color: #bbbbbb;
+}
